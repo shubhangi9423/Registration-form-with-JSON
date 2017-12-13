@@ -1,0 +1,84 @@
+<html>
+<head>
+	<style>
+	.banner {
+    padding-left: 2px;
+    padding-top: 2px;
+}
+.detail {
+    width: 1000px;
+    background-color: rgba(158, 158, 158, 0.32);
+    margin-top: -15px;
+}
+.main {
+    margin-left: 120px;
+}
+
+h3.info1 {
+    margin-left: 14px !important;
+    margin-top: 22px;
+}
+.bankd {
+    margin-left: 260px;
+}
+
+td {
+    padding-right: 42px;
+    padding-top: 16px;
+    padding-left: 9px;
+    padding-bottom: 8px;
+}
+	</style>
+</head>
+<div class="main">
+<div class="logoi">
+<img src="<?php echo $logo_image; ?>" class="swu-log" alt="Logo Image">
+</div>
+<div class="banner">
+<img src="<?php echo $banner_image; ?>" class="swu-log" alt="Logo Image">
+</div>
+<div class="detail">
+<h3 class="info1">Dear <?php echo $first_name; ?> ji, </br></br>
+	Hari om ! </br></br>
+
+	Thank you for your offer of Rs.<?php echo $total_amount; ?> as Gurudakshina for <?php echo $event_title; ?>.  Please find below the NEFT details for transferring the money. Please mention the purpose as "eCamp Gurudakshina donation #<?php echo $donation_id;?>" when you send the money for tracking.</h3>
+<div class="bankd">
+<table class="info" border="1" class="custom-table">
+            <tr>
+                <td>Beneficiary Name</td>
+                <td>Central Chinmaya Mission Trust</td>
+            </tr>
+            <tr>
+                <td>Beneficiary A/c No.</td>
+                <td>246010100296984</td>
+            </tr>
+            <tr>
+                <td>Beneficiary Bank Name</td>
+                <td>Axis Bank Ltd., Mumbai, India</br>
+                   Corporate Office</br>
+                   Maker Tower E,</br>
+                   Cuffe Parade</br>
+                   Mumbai</br>
+                   India - 400005 </td>
+            </tr>
+            <tr>
+                <td>Beneficiary Bank Branch</td>
+                <td>Axis Bank Ltd.</br>
+                17 & 18, Ground Floor,</br>
+                Ventura Building,</br>      
+                Hiranandani Business Park,</br> Powai
+                Mumbai - 400 076</br></td>
+            </tr>
+            <tr>
+                <td>Beneficiary Bank Code</td>
+                <td>211</td>
+            </tr>
+            <tr>
+                <td>IFSC Code</td>
+                <td>UTIB0000246</td>
+            </tr>
+        </table> 
+</div>
+</div>
+</div>
+</html>
